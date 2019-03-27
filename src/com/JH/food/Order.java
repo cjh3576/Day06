@@ -36,12 +36,10 @@ public class Order {
 						}
 						System.out.println(total + "개 주문하셨습니다");
 
-
-
 					}
 					else {
 						System.out.println("잘못된 입력입니다");
-						
+
 						break;
 					}
 				}
@@ -51,7 +49,7 @@ public class Order {
 
 				break;
 			case 2:
-				System.out.println("결산");
+				System.out.println();
 				view.totalView(nFood);
 				check = !check;
 				break;
